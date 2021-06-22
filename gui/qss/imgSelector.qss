@@ -1,0 +1,44 @@
+#ImageSelectWidget{
+    background-color:#FFFFFF;
+    margin-top:25px;
+    margin-bottom:15px;
+}
+#ImgWidget{
+    background-color:#FFFFFF;
+}
+
+#TipLable{
+    background-color: #1932C1;
+}
+
+QWidget{
+    background-color:#FFFFFF;
+}
+#ImgWidget{
+    border: none; /*去掉边框*/
+}
+/*这里是通用设置，所有按钮都有效，不过后面的可以覆盖这个*/
+QPushButton {
+    border: none; /*去掉边框*/
+}
+
+#PreviousLabel {
+    background-color: #FFFFFF;
+    margin:0px;
+}
+#PreviousLabel:hover {
+    border:2px solid #4098F7;
+}
+#PreviousLabel:pressed {
+    border:2px solid #4098F7;
+}
+
+#NextLabel {
+    background-color: #FFFFFF;
+}
+#NextLabel:hover {
+    border:2px solid #4098F7;
+}
+#NextLabel:pressed {
+    border:2px solid #4098F7;
+}

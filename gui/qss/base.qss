@@ -1,0 +1,103 @@
+#MainWindow{
+    background-color:#B7BBBB;
+}
+
+#KeyResultWidget{
+    background-color:#FFFFFF;
+}
+
+#DetailProcessWidget{
+    background-color:#FFFFFF;
+}
+
+#WaitWidget{
+    background-color:#FFFFFF;
+}
+
+#ImageSelectWidget{
+    background-color:#FFFFFF;
+    margin-top:25px;
+    margin-bottom:15px;
+}
+
+/*这里是通用设置，所有按钮都有效，不过后面的可以覆盖这个*/
+QPushButton {
+    border: none; /*去掉边框*/
+}
+
+/*
+QPushButton#xxx
+或者
+#xx
+都表示通过设置的objectName来指定
+*/
+#HintButton {
+    background-color: #FFFFFF;
+    border-radius: 7px; /*圆角*/
+    margin-left:20px;
+    font-family:'黑体';
+    font-size:14pt;
+    font-weight:bold;
+    color:#FF9800;
+}
+#HintButton:hover {
+    border:2px solid #ff0000;
+}
+#HintButton:pressed {
+    border:5px solid #d4dad7;
+    background-color: #d4dad7; /*鼠标按下不放时背景颜色*/
+}
+
+#SelectButton {
+    background-color: #5F938E;
+    border-radius: 12px; /*圆角*/
+    color:#FFFFFF;
+    font-size:14pt;
+    font-family:'黑体';
+
+}
+#SelectButton:hover {
+    background-color: #81c784;
+}
+#SelectButton:pressed {
+    background-color: #c8e6c9;
+}
+
+
+#KeyResultButton {
+    background-color: #FFFFFF;
+    border-top-right-radius: 10px; /*圆角*/
+    border-top-left-radius: 10px;
+    color:#508C87;
+    font-family:'黑体';
+    font-size:14pt;
+    font-weight:bold;
+}
+#KeyResultButton:hover {
+    border:2px solid #508C87;
+}
+#KeyResultButton:pressed {
+    border:3px solid #508C87;
+}
+
+#DetailProcessButton {
+    background-color: #B7BBBB;
+    border-top-right-radius: 10px; /*圆角*/
+    border-top-left-radius: 10px;
+    color:#508C87;
+    font-family:'黑体';
+    font-size:14pt;
+    font-weight:bold;
+}
+#DetailProcessButton:hover {
+    border:2px solid #508C87;
+}
+#DetailProcessButton:pressed {
+    border:3px solid #508C87;
+}
+
+/*根据文字内容来区分按钮,同理还可以根据其它属性来区分*/
+QPushButton[text="purple button"] {
+    color: white; /*文字颜色*/
+    background-color: #9c27b0;
+}
